@@ -5,20 +5,25 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "jest"
+    "test": "test"
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "start": "npm run test:watch"
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leslie Shea",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.16.0",
     "jest": "^24.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leslieeshea/tdd-array-quiz-retake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leslieeshea/tdd-array-quiz-retake/issues"
+  },
+  "homepage": "https://github.com/leslieeshea/tdd-array-quiz-retake#readme"
 }
